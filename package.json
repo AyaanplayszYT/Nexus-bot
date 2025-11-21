@@ -1,0 +1,41 @@
+{
+  "name": "nexus-bot",
+  "version": "1.0.0",
+  "description": "A modular Discord moderation and utility bot with slash commands, event logging, auto-moderation, and AI chat integration.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "echo \"No tests defined\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyaanplayszYT/Nexus-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "moderation",
+    "logging",
+    "ai-chat",
+    "auto-moderation",
+    "slash-commands"
+  ],
+  "author": "AyaanplayszYT",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/AyaanplayszYT/Nexus-bot/issues"
+  },
+  "homepage": "https://github.com/AyaanplayszYT/Nexus-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.25.0",
+    "dotenv": "^17.2.3",
+    "jimp": "^0.22.12",
+    "node-fetch": "^3.3.2"
+  }
+}
