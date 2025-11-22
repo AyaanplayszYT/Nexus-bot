@@ -1,15 +1,3 @@
 {
-  "servers": {
-    "1200054006303694938": {
-      "modLogChannelId": "1434947735991226527",
-      "spamLogChannelId": "1441388695516090408",
-      "aiChannelId": "1441388696879501364",
-      "modRoleIds": [],
-      "coloredRoleIds": [],
-      "welcomeEnabled": true,
-      "welcomeChannelId": "1218951469286555918",
-      "welcomeMessage": "welcome chigga",
-      "rulesType": "gaming"
-    }
-  }
+  "servers": {}
 }

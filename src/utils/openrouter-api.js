@@ -21,7 +21,7 @@ async function chatCompletion(messages) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 30000);
     const requestBody = {
-        model: 'grok-2-1212',
+        model: 'x-ai/grok-4.1-fast:free',
         messages: sanitizedMessages,
         max_tokens: 1024,
     };
